@@ -5,30 +5,105 @@
 /* вторичный цвет фона #F5F4FA */
 /* третий цвет фона #2F303A */
 
+body {
+  background-color: #ffffff;
+  color: #757575;
+  font-family: Roboto sans-serif;
+}
 
+ul {
+  list-style: none;
+}
 
-body {background-color: #FFFFFF; color: #757575; font-family: Roboto; }
-
-ul {list-style: none;}
+/* logo */
+.logo-1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.logo-2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
 
 /* site-nav */
-.site-nav .link {color: #212121;}
-.site-nav .link:hover, .site-nav .link:focus {color: #2196F3;}
+.site-nav .nav-link {
+  color: #212121;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
+}
+.nav-link, .contact-header-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
 
 /* contact-header */
-.contact-header .contact-header-link { color: #757575;}
-.contact-header .contact-header-link:hover, .contact-header .contact-header-link:focus {color: #2196F3;}
+.contact-header .contact-header-link {
+  color: #757575;
+}
+.contact-header-link:hover,
+.contact-header-link:focus {
+  color: #2196f3;
+}
 
 /* section */
-.hero-title {color: #FFFFFF; background-color:#2F303A;}
-.hero-button {color: #FFFFFF; background-color: #2196F3;}
-.section-feature-title {color: #212121;}
-.section-title {color: #212121;}
-.section-team {background-color: #F5F4FA;}
-.team-name {color: #212121;}
+.hero-title {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+.hero-button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.section-feature-title {
+  color: #212121;
+}
+.section-title {
+  color: #212121;
+}
+.section-team {
+  background-color: #f5f4fa;
+}
+.team-name {
+  color: #212121;
+}
 
 /* футер */
-.footer {background-color: #2F303A;}
-.footer-address {color: #FFFFFF;}
-.footer-mail { color: rgba(255, 255, 255, 0.6);}
-.footer-tel { color: rgba(255, 255, 255, 0.6);}
+.footer {
+  background-color: #2f303a;
+}
+.footer-address {
+  color: #ffffff;
+}
+.footer-address:hover,
+.footer-address:focus {
+  color: #2196f3;
+}
+.footer-mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-mail:hover,
+.footer-mail:focus {
+  color: #2196f3;
+}
+.footer-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel:hover,
+.footer-tel:focus {
+  color: #2196f3;
+}
