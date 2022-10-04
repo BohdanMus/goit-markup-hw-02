@@ -1,9 +1,12 @@
-/* вторичный цвет текста #212121 */
-/* основной цвет текса #757575 */
-/* акцент #2196F3 */
-/* белый #FFFFFF */
-/* вторичный цвет фона #F5F4FA */
-/* третий цвет фона #2F303A */
+
+.root {
+  --main-title-color: #212121;
+  --main-text-color: #757575;
+  --main-accent-color: #2196F3;
+  --main-background-color: #FFFFFF;
+  --second-background-color: #F5F4FA;
+  --third-background-color: #2F303A;
+}
 
 body {
   background-color: #ffffff;
@@ -17,9 +20,6 @@ body {
 .link {
   text-decoration: none;
 }
-
-/* root */
-
 
 /* logo */
 .logo-1 {
