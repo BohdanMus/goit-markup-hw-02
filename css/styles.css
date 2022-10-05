@@ -64,8 +64,24 @@ color: #757575;
 .contact-header-link:focus, 
 .contact-header-link:hover {color: #2196f3;}
 
+.site-nav .nav-link.current {
+color: #2196f3;  
+}
+
 /* ГЕРОЙ */
 .section-hero {background-color: #2F303A;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 .hero-title {
   font-style: normal;
@@ -220,8 +236,7 @@ color: rgba(255, 255, 255, 0.6);
 .section-portfolio {
   background-color: #F5F5F5;
 }
-/* .page-portfolio {
-} */
+
 .filter-button {
 font-family: 'Roboto';
 font-style: normal;
